@@ -1,11 +1,11 @@
 # TDD
 
-### rules
+## rules
 
 - Write new code only if you first have a failing automated test
 - Eliminate duplication
 
-### steps
+## steps
 
 1. Add a little test
 2. Run all tests and fail
@@ -15,16 +15,16 @@
 
 TDD is not  about taking teensy tiny steps, it's about being able to take teensy tiny steps
 
-### Triangulation
+## Triangulation
 
 - Translated a design objection(side effects) into a test case that failed because of the objection.
 - Got the code to compile quickly with a stub implementation.
 - Made the test work by typing in what seemed like right code.
 
-### Imposter
+## Imposter
 
 When the object you have doesn’t behave like you want,make another object with the same external protocol (an Imposter), but a different implementation.
 
-### Polymorphism
+## Polymorphism
 
 Any time you are checking classes explicitly, you should be using polymorphism instead. 

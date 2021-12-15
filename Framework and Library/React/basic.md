@@ -72,3 +72,20 @@ props和state的更新是异步的，所以不要依赖它们的值来更新下�
 组件只能向它之下的组件传递数据。
 
 “如果你把一个以组件构成的树想象成一个 props 的数据瀑布的话，那么每一个组件的 state 就像是在任意一点上给瀑布增加额外的水源，但是它只能向下流动。”
+
+## 事件处理
+
+- React事件采用小驼峰式
+- Jsx要求传入函数作为事件处理函数，而不是字符串
+
+事件的默认行为需要显式的调用`preventDefault`
+
+事件监听可以在创建组件的时候将函数绑定。
+
+```javascript
+constructor(props) {
+        super(props);
+        this.state = {isToggleOn: true}
+        this.handleClick = this.handleClick.bind(this) //绑定
+    }
+```

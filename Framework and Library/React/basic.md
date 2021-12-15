@@ -89,3 +89,24 @@ constructor(props) {
         this.handleClick = this.handleClick.bind(this) //绑定
     }
 ```
+
+class的方法默认不会绑定this，如果直接在Jsx中用this使用方法的话会显示`undefined`
+
+### 向事件传递参数
+
+```javascript
+// 事件显式的传递
+<button onClick={(e) => this.deleteRow(id, e)}>Delete Row</button>
+// 事件隐式的传递
+<button onClick={this.deleteRow.bind(this, id)}>Delete Row</button>
+```
+
+## 条件渲染
+
+使用Js中的`if`或者`条件运算符`创建元素表现当前的状态。React根据它们来更新UI。
+
+通过花括号可以在JSX中嵌入表达式，然后使用`&&`运算符或者三目运算符来控制UI。
+
+### 阻止组件渲染
+
+`render`方法返回`null`。

@@ -1,0 +1,56 @@
+{
+    "created_time": "2022-02-18T01:46:28Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "created_time": "2022-02-18T01:46:28Z",
+            "id": "2",
+            "modified_time": "2022-02-18T01:46:28Z",
+            "name": ".gitignore",
+            "signature": "55230629608052",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-02-18T01:46:28Z",
+            "id": "3",
+            "modified_time": "2022-02-18T01:46:28Z",
+            "name": ".markdownlint.json",
+            "signature": "37466644871796",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-02-18T01:46:28Z",
+            "id": "50",
+            "modified_time": "2022-02-18T01:47:27Z",
+            "name": "README.md",
+            "signature": "127381785213556",
+            "tags": [
+            ]
+        }
+    ],
+    "folders": [
+        {
+            "name": "CS"
+        },
+        {
+            "name": "Framework and Library"
+        },
+        {
+            "name": "Language"
+        },
+        {
+            "name": "Software engineering"
+        },
+        {
+            "name": "Tools"
+        }
+    ],
+    "id": "1",
+    "modified_time": "2022-02-18T01:46:28Z",
+    "signature": "86059904858740",
+    "version": 3
+}

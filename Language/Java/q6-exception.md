@@ -7,7 +7,9 @@ use or in try-catch.
 ```java
 try {
 
-} catch (E1 e1 || E2 e2) {}
+} catch (E1 e1 || E2 e2) {
+
+}
 ```
 
 > How to get the information of the stack trace?

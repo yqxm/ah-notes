@@ -1,0 +1,3 @@
+- **Definition**: A statement (communication) that is either true or false
+- **e.g**
+	- 1. For every none negative integer n, the value of $n^2+n+41$ is a prime number.

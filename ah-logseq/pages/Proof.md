@@ -1,0 +1,1 @@
+- **Definition**: A  _mathematical proof_ of a _[[Proposition]]_ is a chain of _[[Logical Deductions]]_ leading to the proposition from a sets of base _[[Axioms]]_

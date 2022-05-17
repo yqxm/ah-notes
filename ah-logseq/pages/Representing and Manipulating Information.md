@@ -1,2 +1,0 @@
-- [[Information Storage]]
-- [[Number Representation]]

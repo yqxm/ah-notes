@@ -1,12 +1,9 @@
-[{:block/name "_异常表_",
-  :block/created-at 1652692309986,
-  :block/updated-at 1652692309986}
+[{:block/name "+begin_note\\",
+  :block/created-at 1652775465540,
+  :block/updated-at 1652775465540}
  {:block/name "a",
   :block/created-at 1652622069909,
   :block/updated-at 1652622069909}
- {:block/name "algorithm",
-  :block/created-at 1652636239320,
-  :block/updated-at 1652636239320}
  {:block/name "axioms",
   :block/created-at 1652633083707,
   :block/updated-at 1652633083707}
@@ -40,30 +37,9 @@
  {:block/name "done",
   :block/created-at 1652622069909,
   :block/updated-at 1652622069909}
- {:block/name "draws/2022-05-16-01-03-12.excalidraw",
-  :block/created-at 1652636361470,
-  :block/updated-at 1652636361470}
- {:block/name "draws/2022-05-16-01-04-35.excalidraw",
-  :block/created-at 1652636361470,
-  :block/updated-at 1652636361470}
- {:block/name "draws/2022-05-16-09-49-51.excalidraw",
-  :block/created-at 1652671866767,
-  :block/updated-at 1652671866767}
- {:block/name "draws/2022-05-16-09-52-33.excalidraw",
-  :block/created-at 1652671866767,
-  :block/updated-at 1652671866767}
- {:block/name "draws/2022-05-16-10-11-13.excalidraw",
-  :block/created-at 1652671866767,
-  :block/updated-at 1652671866767}
- {:block/name "draws/2022-05-16-10-13-48.excalidraw",
-  :block/created-at 1652671866767,
-  :block/updated-at 1652671866767}
- {:block/name "draws/csapp/memory-and-byte.excalidraw",
-  :block/created-at 1652671866767,
-  :block/updated-at 1652671866767}
  {:block/name "exceptional control flow",
   :block/created-at 1652683219049,
-  :block/updated-at 1652692577518}
+  :block/updated-at 1652772716223}
  {:block/name "favorites",
   :block/created-at 1652622069909,
   :block/updated-at 1652622069909}
@@ -75,7 +51,7 @@
   :block/updated-at 1652622069909}
  {:block/name "information storage",
   :block/created-at 1652664369178,
-  :block/updated-at 1652669544463}
+  :block/updated-at 1652766831952}
  {:block/name "java",
   :block/created-at 1652636187281,
   :block/updated-at 1652636187281}
@@ -85,6 +61,9 @@
  {:block/name "later",
   :block/created-at 1652622069909,
   :block/updated-at 1652622069909}
+ {:block/name "linux x86-64系统中的异常",
+  :block/created-at 1652772367829,
+  :block/updated-at 1652775571881}
  {:block/name "little endian",
   :block/created-at 1652669340750,
   :block/updated-at 1652670075000}
@@ -94,18 +73,9 @@
  {:block/name "math",
   :block/created-at 1652632177438,
   :block/updated-at 1652632189308}
- {:block/name "may 15th, 2022",
-  :block/created-at 1652622037952,
-  :block/updated-at 1652632144536}
- {:block/name "may 16th, 2022",
-  :block/created-at 1652631383132,
-  :block/updated-at 1652632071250}
- {:block/name "new page: c++",
-  :block/created-at 1652636181589,
-  :block/updated-at 1652636181589}
- {:block/name "new page: logical deductions",
-  :block/created-at 1652633307210,
-  :block/updated-at 1652633307210}
+ {:block/name "may 17th, 2022",
+  :block/created-at 1652773023143,
+  :block/updated-at 1652773023143}
  {:block/name "now",
   :block/created-at 1652622069909,
   :block/updated-at 1652622069909}
@@ -135,7 +105,7 @@
   :block/updated-at 1652622069909}
  {:block/name "中断",
   :block/created-at 1652693091845,
-  :block/updated-at 1652693944177}
+  :block/updated-at 1652766441403}
  {:block/name "内核模式",
   :block/created-at 1652691851238,
   :block/updated-at 1652691851238}
@@ -150,13 +120,13 @@
   :block/updated-at 1652692221698}
  {:block/name "异常类别",
   :block/created-at 1652692551762,
-  :block/updated-at 1652694183400}
+  :block/updated-at 1652764067047}
  {:block/name "异常表",
   :block/created-at 1652686620033,
   :block/updated-at 1652690828753}
  {:block/name "故障",
   :block/created-at 1652693046353,
-  :block/updated-at 1652693046353}
+  :block/updated-at 1652771996676}
  {:block/name "数的伸缩",
   :block/created-at 1652681316005,
   :block/updated-at 1652682184619}
@@ -169,12 +139,18 @@
  {:block/name "用户模式",
   :block/created-at 1652692193890,
   :block/updated-at 1652692193890}
+ {:block/name "系统总线",
+  :block/created-at 1652766441403,
+  :block/updated-at 1652766604881}
+ {:block/name "系统调用",
+  :block/created-at 1652767280404,
+  :block/updated-at 1652770605367}
  {:block/name "终止",
   :block/created-at 1652693054804,
-  :block/updated-at 1652693054804}
+  :block/updated-at 1652772238437}
  {:block/name "过程调用",
   :block/created-at 1652691186061,
   :block/updated-at 1652691186061}
  {:block/name "陷阱",
   :block/created-at 1652693091844, 
-  :block/updated-at 1652693091844}]
+  :block/updated-at 1652770039531}]

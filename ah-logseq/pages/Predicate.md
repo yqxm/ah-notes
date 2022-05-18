@@ -1,0 +1,5 @@
+- **Definition**: A proposition whose truth depends on the value of one or more variables.
+- **e.g**
+	- $$ P(n) ::= \textrm{n is a perfect square}$$
+		- When `n` is 4, the predicate is true.
+		- When `n` is 5, the predicate is false.

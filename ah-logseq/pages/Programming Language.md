@@ -2,3 +2,5 @@
 - [[C++]]
 - [[Java]]
 - [[JavaScript]]
+- [[TypeScript]]
+-

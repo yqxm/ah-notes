@@ -1,0 +1,1 @@
+- **Definition**: Logical deductions, or _inference rules_, are used to prove new propositions using previously proved ones.

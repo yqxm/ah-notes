@@ -1,3 +1,6 @@
 - **Definition**: A statement (communication) that is either true or false
 - **e.g**
-	- 1. For every none negative integer n, the value of $n^2+n+41$ is a prime number.
+	- For every none negative integer n, the value of $n^2+n+41$ is a prime number.
+		- From 1 to 39, this proposition is true.
+		- If `n` is 40 or 41, the proposition is false.
+	-

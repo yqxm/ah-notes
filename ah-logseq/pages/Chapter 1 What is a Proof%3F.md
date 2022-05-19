@@ -1,4 +1,0 @@
-- [[Proof]]
-- [[Predicate]]
-- [[The Axiomatic Method]]
--

@@ -1,0 +1,13 @@
+- **Method \#1**
+	- **Steps**:
+		- Write, "Assume $P$."
+		- Show that $Q$ logically follows.
+	- **Example**:
+		- **Theorem.** $\textit{If}  \ 0 \leq x \leq 2, \textit{then} \ -x^3+4x+1 \gt 0$
+- **Method #2- Prove the Contrapositive**
+	- $P \rightarrow Q$ is logically equivalent to its contrapositive $\lnot Q \rightarrow \lnot P$
+	- **Steps**:
+		- Write, "We prove the contrapositive." and then state the contrapositive.
+		- Proceed as in Method \#1
+	- **Example**:
+		- **Theorem.** $\textit{If r is irrational, then} \ \sqrt{r} \ \textit{is also irrational}$

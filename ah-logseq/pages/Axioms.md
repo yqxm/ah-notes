@@ -1,0 +1,1 @@
+- Propositions that are simply accepted as true.

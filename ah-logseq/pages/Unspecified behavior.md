@@ -1,0 +1,3 @@
+- Program behavior for which the standard provides two or more options. The standard imposes no requirements on which option is chosen in any instance.
+- **Examples**
+	- Function parameter storage layout.

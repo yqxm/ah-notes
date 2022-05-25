@@ -1,1 +1,6 @@
 - **Definition**: A  _mathematical proof_ of a _[[Proposition]]_ is a chain of _[[Logical Deductions]]_ leading to the proposition from a sets of base _[[Axioms]]_
+- **Patterns of Proof**
+	- [[Proving an Implication]]
+	- [[Proving an "If and Only If"]]
+	- [[Proofs by Cases]]
+	- [[Proof by Contradiction]]

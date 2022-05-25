@@ -1,1 +1,3 @@
+- [[C Portability]]
+- [[Objects, Functions, and Types]]
 - [[C Traps]]

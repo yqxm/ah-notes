@@ -1,0 +1,4 @@
+- Behavior that isn't defined by C Standard.
+- **Examples**
+	- Signed integer overflow
+	- Dereferencing an invalid pointer value.

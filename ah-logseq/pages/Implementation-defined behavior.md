@@ -1,0 +1,5 @@
+- Program behavior that's not specified by the C Standard and that may offer different results among implementations, but has consistent, documented behavior within an implementation.
+- It means that the implementation is free to do what it likes, but must document its choice and stick to it.
+- **Examples**
+	- The number of bits in a byte.
+	- The numeric value of character constants in preprocessor expressions.

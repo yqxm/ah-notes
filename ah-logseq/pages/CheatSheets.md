@@ -1,0 +1,4 @@
+- [[vim-cheatsheet]]
+- latex
+	- ![latex symbols.pdf](../assets/latex_symbols_1653444424918_0.pdf)
+	-

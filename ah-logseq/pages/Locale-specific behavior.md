@@ -1,0 +1,2 @@
+- Behavior depends on local conventions of nationality, culture, and language that each implementation documents.
+- Common extensions are widely used in many systems but are not portable to all implementations.

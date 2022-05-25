@@ -1,4 +1,3 @@
-- ## What is a Proof?
-	- [[Proof]]
-	- [[Predicate]]
-	- [[The Axiomatic Method]]
+- [[Proof]]
+- [[Predicate]]
+- [[The Well Ordering Principle]]

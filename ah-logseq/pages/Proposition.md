@@ -1,6 +1,9 @@
 - **Definition**: A statement (communication) that is either true or false
-- **e.g**
+- **e.g:**
 	- For every none negative integer n, the value of $n^2+n+41$ is a prime number.
 		- From 1 to 39, this proposition is true.
 		- If `n` is 40 or 41, the proposition is false.
-	-
+- **Term for a proposition that has been proved**:
+	- Important true propositions are called _theorems_.
+	- A _lemma_ is a preliminary proposition useful for proving later propositions.
+	- A _corollary_ is a proposition that follows in just a few logical steps from a theorem.

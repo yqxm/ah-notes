@@ -1,1 +1,10 @@
 - **Definition**: Logical deductions, or _inference rules_, are used to prove new propositions using previously proved ones.
+- An assignment of truth values to the letters $P, Q, ...$ that makes all the antecedents true must also make the consequent true.
+- **Rule.**
+	- $$\frac{P, \ P \rightarrow Q}{Q}$$
+	- State above the line called *antecedents*, are proved.
+	- State below the line called *conclusion* or *consequent*, to also be proved.
+- **Rule.**
+	- $$ \frac{P \rightarrow Q, Q  \rightarrow R}{R}$$
+- **Rule.**
+	- $$\frac{\lnot P \rightarrow \lnot Q}{\lnot Q \rightarrow \lnot P}$$

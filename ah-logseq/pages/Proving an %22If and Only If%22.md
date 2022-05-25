@@ -1,0 +1,13 @@
+- The phrase "if and only if" is abbreviated "iff".
+- **Method \# 1: Prove Each Statement Implies the Other**
+	- The statement $P \iff Q$ is equivalent to the two statements $P \rightarrow Q$ and $Q \rightarrow P$.”
+	- **Steps:**
+		- Write, "We prove $P \rightarrow Q$ and vice-versa."
+		- Write, "First, we show $P \rightarrow Q$." then [prove it]([[Proving an Implication]])
+		- write, "Now, we show $Q \rightarrow P$, the [prove it]([[Proving an Implication]])
+- **Method \#2: Construct a Chain of Iffs**
+	- **Steps:**
+		- Write, "We construct a chain of iff implications."
+		- Prove $P$ is equivalent to a second statement which is equivalent to a third statement and so forth until you reach $Q$.
+	- **Example:**
+		- **Theorem**. The standard deviation of a sequence of values $x_1,\dots,x_n$ is zero iff all the values are eaual to the mean.

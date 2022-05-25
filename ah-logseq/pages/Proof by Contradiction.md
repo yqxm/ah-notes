@@ -1,0 +1,8 @@
+- If a proposition were false, then some false fact would be true. Since a false fact by definition can't be true, the proposition must be true.
+- **Steps:**
+	- Write, "We use proof by contradiction."
+	- Write, "Suppose $P$ is false."
+	- Deduce something known to be false (a logical contradiction)
+	- Write, "This is a contradiction. Therefore, $P$ must be true."
+- **Example:**
+	- **Theroem.** $\sqrt{2}$ is irrational.

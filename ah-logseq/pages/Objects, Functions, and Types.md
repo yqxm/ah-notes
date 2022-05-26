@@ -20,7 +20,7 @@
 			- The lifetime of these objects is the entire execution of the program.
 			- The stored value is initialized prior to program startup.
 			- Use `static` specifier to make a variable in block scope have static storage duration.
-- **Object types**
+- **Object Types**
 	- **Boolean:** `<stdbool.h>`, use `bool`.
 	- **Character:**
 		- Different compilers will make `char` to be same with `unsigned char` or `signed char`.  But `char` is a separate type from the other two and is incompatible with both.
@@ -31,3 +31,28 @@
 		- Floating-Point
 		- **void:** The keyword `void` (by itself) means "cannot hold any value". `void *` means that the pointer can reference _any_ object.
 - **Function Types**
+	- _Function type is derived from the return type and the number and types of its parameters. The return type of a function cannot be array type.
+	- ```C
+	  int f(void);				// can not pass parameter.
+	  int *fip();					// can pass any parameters. Don't use it.
+	  void g(int i, int j);
+	  void h(int, int);
+	  ```
+	- Specifying parameters with identifiers can be problematic if an identifier is a **macro**. But, it's a good practice for self-documenting code, so recommend it.
+- **Derived Types**
+	- _Derived types_ are types that are constructed from other types. These include **pointers**, **arrays**, **type definitions**, **structures**, and **unions**.
+		- **Structures:** A _structure type_ contains sequentially allocated member objects. Each object has its own name and may have a distinct type.
+			- ```C
+			  //创建了 sigrecord 类型，并声明了 sigline对象，和指向这种类型的指针sigline_p
+			  struct sigrecord {
+			      int signum;
+			      char signame[20];
+			      char sigdesc[100];
+			  } sigline, *sigline_p;
+			  ```
+			- To reference a member of an object of the structure type, use `.`
+			- To reference a member of an pointer point to, use `->`
+		- **Unions:** _Union types_ are similar to structures, except that the memory used by the member objects overlaps. Unions can contain an object of one type at one time, and an object of a different type at a different time, but **never** both objects at the same time.
+			- `union` can make the same storage to be used for the members.
+- **[[Type Definitions]]**
+- **[[Type Qualifiers]]**

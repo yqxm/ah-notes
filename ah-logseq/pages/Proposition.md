@@ -7,3 +7,4 @@
 	- Important true propositions are called _theorems_.
 	- A _lemma_ is a preliminary proposition useful for proving later propositions.
 	- A _corollary_ is a proposition that follows in just a few logical steps from a theorem.
+- [[Predicate]]

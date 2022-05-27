@@ -1,3 +1,2 @@
 - [[Proof]]
-- [[Predicate]]
 - [[The Well Ordering Principle]]

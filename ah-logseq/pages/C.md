@@ -1,3 +1,4 @@
 - [[C Portability]]
 - [[Objects, Functions, and Types]]
+- [[Dynamically Allocated Memory]]
 - [[C Traps]]

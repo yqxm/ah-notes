@@ -20,6 +20,8 @@
 			- The lifetime of these objects is the entire execution of the program.
 			- The stored value is initialized prior to program startup.
 			- Use `static` specifier to make a variable in block scope have static storage duration.
+		- **allocated:**
+			- [[Dynamically Allocated Memory]]
 - **Object Types**
 	- **Boolean:** `<stdbool.h>`, use `bool`.
 	- **Character:**

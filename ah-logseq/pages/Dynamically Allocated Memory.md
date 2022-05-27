@@ -1,0 +1,23 @@
+- The lifetime of an allocated object extends from the allocation until the deallocation.
+- Dynamically allocated memory is allocated from _**heap**_, which is simply one or more large, subdividable blocks of memory that managed by [[Memory Manager]].
+- **When to use it?**
+	- It's used when the exact storage requirement for a program are unknown before runtime.
+	- **e.g.**
+		- Read a table from a file at runtime.
+		- linked lists, hash tables, binary trees, and other data structures which the number of  data elements held is unknown at compile time.
+- **Side Effects:**
+	- The memory manager needs to find appropriately sized blocks of memory in runtime heap.
+	- The caller must free allocated blocks when no longer needed.
+	- It requires additional processing for housekeeping operations such as _**defragmentation**_, and the memory manager often uses extra storage for control structures to facilitate these process.
+- **Memory management functions**
+	- `malloc`:  It allocates space for an object of a specified size whose initial value is indeterminate.
+		- accept an argument of type `size_t` that specify the number of bytes to be allocated.
+		- returns either null pointer to indicate an error, or a pointer to the allocated space.
+		- you can store the return value from `malloc` as a void pointer to avoid declaring a type for the referenced object. `void *p = malloc(size)`
+		- casting the pointer to the type of the declared object.
+			- ```c
+			  widget *p = (widget*)malloc(sizeof(widget));
+			  ```
+		-
+		-
+	-

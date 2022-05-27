@@ -1,0 +1,3 @@
+- Memory Manager are libraries that manage the heap for you by providing implementations of the standard memory management functions.
+- A memory manager runs as part of the client process. The memory manager will request one or more blocks of memory from the operating system and then allocate this memory to the client process when it invokes a memory allocation function.
+- Memory managers manage **unallocated and deallocated memory** only. Once memory has been allocated, the caller manages the memory until it’s returned. It’s the **caller’s responsibility** to ensure that the memory is deallocated, although most implementations will reclaim dynamically allocated memory when the program terminates.

@@ -18,6 +18,3 @@
 			- ```c
 			  widget *p = (widget*)malloc(sizeof(widget));
 			  ```
-		-
-		-
-	-

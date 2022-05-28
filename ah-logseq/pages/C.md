@@ -1,4 +1,4 @@
-- [[C Portability]]
+- [[C Behaviors]]
 - [[Objects, Functions, and Types]]
-- [[Dynamically Allocated Memory]]
+- [[结构(struct)]]
 - [[C Traps]]

@@ -11,5 +11,4 @@
 	- **should not be used for synchronization between threads.**
 - **`restrict`**
 	- Used to promote optimization.
-	- Make compiler know that the  de-referenced object not pointed by other pointer. So compiler can make optimization.
-	-
+	- Make compiler know that the  dereferenced object not pointed by other pointer. So compiler can make optimization.

@@ -1,4 +1,4 @@
 - [[GCC]]
 - [[Objdump]]
 - [[Vim/NeoVim]]
--
+- [[logseq]]

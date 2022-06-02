@@ -1,0 +1,2 @@
+- ![mcs1-5-1.png](../assets/mcs1-5-1_1654098457690_0.png){:height 454, :width 664}
+-

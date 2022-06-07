@@ -1,4 +1,9 @@
-- [[GCC]]
-- [[Objdump]]
+- Linux
+	- [[GCC]]
+	- [[Objdump]]
+	- strace
+	- ps
+	- top
+	- pmap
 - [[Vim/NeoVim]]
 - [[logseq]]

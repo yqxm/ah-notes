@@ -18,7 +18,7 @@
   | 14   | SIGALARM  | 终止                | 来自alarm函数的定时器信号      |
   | 15   | SIGTERM   | 终止                | 软件终止信号                   |
   | 16   | SIGSTKFLT | 终止                | 协处理器上的栈故障             |
-  | 17   | SIGCHILD  | 忽略                | 一个子进程停止或终止           |
+  | 17   | SIGCHLD  | 忽略                | 一个子进程停止或终止           |
   | 18   | SIGCONT   | 忽略                | 如果进程停止，继续进程         |
   | 19   | SIGSTOP   | 停止到下一个SIGCONT | 不是来自终端的停止信号         |
   | 20   | SIGTSTP   | 停止到下一个SIGCONT | 来自终端的停止信号             |

@@ -1,3 +1,5 @@
 - [[计算机系统]]
 - [[Algorithms]]
+- [[Database]]
+- [[Operating System]]
 -

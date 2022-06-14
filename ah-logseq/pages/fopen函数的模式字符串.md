@@ -1,0 +1,3 @@
+- ![image.png](../assets/image_1655192395279_0.png){:height 240, :width 646}
+- ![image.png](../assets/image_1655192507782_0.png){:height 255, :width 659}
+- 当给文件写数据时，通常会对先前的内容进行覆盖。追加模式则是向数据末尾添加内容，保留文件的原始内容

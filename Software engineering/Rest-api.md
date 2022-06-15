@@ -1,1 +1,0 @@
-# Microsoft REST api guidelines

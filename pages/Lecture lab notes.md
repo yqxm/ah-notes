@@ -7,5 +7,7 @@
 - # Proj
 	- ## CS61C
 		- [[snek]]
+	- ## OS
+		- [[Pintos]]
 		-
 	-

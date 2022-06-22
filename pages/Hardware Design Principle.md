@@ -1,0 +1,3 @@
+- **Design Principle 1:** Simplicity favors regularity.
+- **Design Principle 2:** Smaller is faster
+-

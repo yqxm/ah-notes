@@ -1,0 +1,31 @@
+- **Complexity**
+	- **Definition:** Anything related to the structure of a software system that makes it hard to understand and modify the system.
+		- **E.g**
+			- Hard to understand the code.
+			- Hard to make a small improvement
+			- Do not know where to modify to make improvement.
+			- Hard to debug.
+	- $$C = \sum_p c_p t_p$$
+		- The overall complexity of a system ($C$) is determined by the complexity of each part $p(c_p)$ weighted by the fraction of time developers spend working on that part($t_p$)
+		- Isolating complexity in a place where it will never be seen is almost as good as elimination the complexity entirely.
+- **Symptoms of complexity**
+	- **Change amplification:**
+		- A seemingly simple change requires code modifications in many diffrent places.
+	- **Cognitive load:**
+		- It refers to how much a developer needs to know in order to complete a task.
+			- A higher cognitive load means that developers have to spend more time learning the required information. And there is greater risk of bugs because they have missed something important.
+		- It arise in many ways, such as _**API with many methods**_, _**global variables**_, _**inconsistencies**_, and _**dependencies bwtween modules**_.
+		- #+BEGIN_NOTE
+		  Sometimes an approach that requires more lines of code is actually simpler, because it reduces cognitive load.
+		  #+END_NOTE
+	- **Unknown unknowns:**
+		- It is not obvious which piece of code must be modified to complete task, or what information a developer must have to carry out the task successfully.
+			- Theres is something you need to know, but there is no way for you to find out what it is, or even, whether there is an issue.
+- **Causes of complexity**
+	- **_dependencies_**
+		- A dependency exists when a given piece of code cannot be understood and modified in isolation; the code relates in someway to other code, and the other code must be considered and/or modified if the given code is changed.
+	- **_obscurity_**
+		- Obscurity occurs when important information is not obvious.
+			- Obscurity is often associate with dependencies, where it is not obvious that a dependency exists.
+			- Inconsistency is also a major contributor to obscurity: if the same variable name is used for two diffrent purposes.
+- ## **Complexity is incremental**

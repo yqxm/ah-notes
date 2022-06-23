@@ -1,0 +1,13 @@
+- **Tactical Programming**
+	- Your main focus is to get something working.
+	- **Problem:** short-sighted
+- **Strategic Programming**
+	- Realize that working code isn't enough.
+	- Produce a great design, which also happens to work.
+	- Strategic programming requires an investment mindset.
+		- **Proactive investment**
+			- It's worth taking a little extra time to find a simple design for each new class, rather than implementing the first idea that comes to mind.
+			- Writing good documentation
+		- **Reactive investment**
+			- As system grows, old design will make mistakes, don't just ignore it or patch around it; take a little extra time to fix it.
+- Spending 10-20% of development time on investments.

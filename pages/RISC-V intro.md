@@ -1,4 +1,0 @@
-- RISC-V requires every instruction to have three operands, no more and no less. This conforms to the philosophy of keeping the hardware simple:
-	- Hardware for a variable number of operands is complicated than hardware for a fixed number.
-		- It illustrate the first of three [[Hardware Design Principle]].
--

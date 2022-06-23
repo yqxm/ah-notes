@@ -7,3 +7,5 @@
 	- pmap
 - [[Vim/NeoVim]]
 - [[logseq]]
+- [[Calibre]]
+-

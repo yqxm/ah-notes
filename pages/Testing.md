@@ -1,0 +1,9 @@
+- **Test-first programming steps**
+	- **Spec**: write a specification for the function.
+	- **Test**: Write tests that exercise the specification.
+	- **Implement**: Write the implementation.
+- **Choosing test cases by partitioning**
+	- Divede the input space into subdomains, each consisting of a set of inputs.
+		- Every input lies in exactly one subdomain, we choose one test case from each subdomain, and that's  a test suite.
+	- **Include boundaries in the partition**
+		-

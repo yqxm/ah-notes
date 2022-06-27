@@ -3,7 +3,7 @@
 - **doubleword:**  Another natural unit of access in a computer, usually a group of 64 bits.
 - There are only 32 registers. This confoms to the second principle of [[Hardware Design Principle]].
 	- A very large number registers may increase the clock cycle time simply because it takes electronic signals longer when they must travel farther.
-- ![image.png](../assets/image_1655866719146_0.png){:height 532, :width 628}
+- ![image.png](../assets/image_1655866719146_0.png){:height 534, :width 628}
 - ![image.png](../assets/image_1655866742942_0.png)
 - RISC-V requires every **arithmetic** instruction to have **three operands**, no more and no less. This conforms to the philosophy of keeping the hardware simple:
 	- Hardware for a variable number of operands is complicated than hardware for a fixed number.

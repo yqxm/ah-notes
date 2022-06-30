@@ -1,2 +1,0 @@
-- [[Proof]]
-- [[The Well Ordering Principle]]

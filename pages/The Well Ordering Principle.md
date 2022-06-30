@@ -10,8 +10,6 @@
 		- By WOP, there will be a smallest element $n$ in $C$.
 		- Reach a contradiction somehow---often by showing that $P(n)$ is actually true by showing that there is another member of $C$ that is smaller than $n$. This is the open-ended part of proof task.
 		- Conclude that $C$ must be empty, that is no counter example exist.
-	- **Theorem.**
-		- $$1 + 2 + 3 + \cdots + n = n(n+1)/2 \textit{ for all nonnegative integers n}$$
 - **Prime Factorization Theorem**
 	- **Theorem.** _Every positive integer greater than one can be factored as product of primes_
 - ## Well Ordered Sets
@@ -23,7 +21,4 @@
 	- **Corollary.** _Any set of integers with a lower bound is well ordered._
 	- **Corollary.** _Any nonempty set of integers with an upper bound has a maximum element._
 	- **lemma.** _Every nonempty  finite set of real numbers is well ordered._
-	-
-	-
-	-
 	-

@@ -1,3 +1,2 @@
-- **Data Stucture**
-	- [[Vector]]
-	-
+- [[Divide and Conquer]]
+-

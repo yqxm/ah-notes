@@ -1,2 +1,7 @@
-- [[Math For Computer Science]]
+- ## Proofs
+	- [[Proof]]
+	- [[The Well Ordering Principle]]
+	- [[Logical Formulas]]
+	-
+	- [[State Machines]]
 -

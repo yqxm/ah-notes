@@ -4,7 +4,7 @@
 		- Show that $Q$ logically follows.
 	- **Example**:
 		- **Theorem.** $\textit{If}  \ 0 \leq x \leq 2, \textit{then} \ -x^3+4x+1 \gt 0$
-		- [[Proof MCS 1-5-1]]
+			- [[Proof MCS 1-5-1]]
 - **Method #2- Prove the Contrapositive**
 	- $P \rightarrow Q$ is logically equivalent to its contrapositive $\lnot Q \rightarrow \lnot P$
 	- **Steps**:
@@ -12,4 +12,4 @@
 		- Proceed as in Method \#1
 	- **Example**:
 		- **Theorem.** $\textit{If r is irrational, then} \ \sqrt{r} \ \textit{is also irrational}$
-		- [[Proof MCS 1-5-2]]
+			- [[Proof MCS 1-5-2]]

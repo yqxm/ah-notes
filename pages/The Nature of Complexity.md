@@ -29,3 +29,4 @@
 			- Obscurity is often associate with dependencies, where it is not obvious that a dependency exists.
 			- Inconsistency is also a major contributor to obscurity: if the same variable name is used for two diffrent purposes.
 - ## **Complexity is incremental**
+	- Complexity isn't caused by a single catastrophic error, it accumulates in lots of small chunks.

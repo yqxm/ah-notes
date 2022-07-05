@@ -1,6 +1,7 @@
 - [[C]]
 - [[C++]]
 - [[Java]]
+- [[Go]]
 - [[JavaScript]]
 - [[TypeScript]]
 - [[SQL]]

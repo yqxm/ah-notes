@@ -1,5 +1,4 @@
 - **Data Structure**
 	- [[Binary Tree]]
-	-
 - [[Divide and Conquer]]
 -

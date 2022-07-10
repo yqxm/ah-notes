@@ -4,6 +4,8 @@
 		- [[C Memory Management, Valgrind]]
 		-
 	- ## CSAPP
+		- [[Shell Lab]]
+		-
 - # Proj
 	- ## CS61C
 		- [[snek]]

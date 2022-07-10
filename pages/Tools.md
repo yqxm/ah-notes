@@ -8,4 +8,6 @@
 - [[Vim/NeoVim]]
 - [[logseq]]
 - [[Calibre]]
+- [[Tmux]]
+- [[Make]]
 -

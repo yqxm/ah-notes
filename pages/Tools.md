@@ -5,6 +5,8 @@
 	- ps
 	- top
 	- pmap
+- [[Bear]]
+-
 - [[Vim/NeoVim]]
 - [[logseq]]
 - [[Calibre]]

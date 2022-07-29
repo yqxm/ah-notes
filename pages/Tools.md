@@ -1,18 +1,23 @@
 - Linux
+	- [[ubuntu]]
 	- [[GCC]]
 	- [[Objdump]]
+	- [[Journalctl]]
 	- strace
 	- ps
 	- top
 	- pmap
 - [[Bear]]
--
+- Container
+	- [[docker]]
 - [[Vim/NeoVim]]
 - [[logseq]]
 - [[Calibre]]
 - [[Tmux]]
 - [[Make]]
+- [[xmake]]
 - Test
 	- [[Junit]]
 	- [[AssertJ]]
+-
 	-

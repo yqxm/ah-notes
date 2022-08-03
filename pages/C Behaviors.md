@@ -1,6 +1,0 @@
-- ## Portability Issues
-	- [[Implementation-defined behavior]]
-	- [[Unspecified behavior]]
-	- [[Undefined behavior]]
-	- [[Locale-specific behavior]]
-	- [[Common extensions]]

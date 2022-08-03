@@ -1,4 +1,6 @@
-- [[添加用户到docker group]]
-- [[docker 设置代理]]
-- [[docker 添加mysql]]
+- [[docker image]]
 -
+- 杂项
+	- [[添加用户到docker group]]
+	- [[docker 设置代理]]
+	- [[docker 添加mysql]]

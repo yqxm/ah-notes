@@ -1,6 +1,6 @@
 - [[Algorithms]]
 - [[Computer Systems]]
-- [[Computer Networking]]
+- [[Computer Networks]]
 - [[Operating System]]
 - [[Distributed Systems]]
 - [[Database]]

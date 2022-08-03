@@ -19,5 +19,6 @@
 - Test
 	- [[Junit]]
 	- [[AssertJ]]
+- [[Rime]]
 -
 	-

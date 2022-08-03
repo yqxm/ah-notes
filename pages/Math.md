@@ -2,6 +2,6 @@
 	- [[Proof]]
 	- [[The Well Ordering Principle]]
 	- [[Logical Formulas]]
-	-
+	- [[Induction]]
 	- [[State Machines]]
 - ## Graph

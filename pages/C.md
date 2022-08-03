@@ -1,5 +1,3 @@
-- [[C Behaviors]]
-- [[Objects, Functions, and Types]]
 - [[结构(struct)]]
 - [[输入/输出]]
 - [[系统调用错误处理]]

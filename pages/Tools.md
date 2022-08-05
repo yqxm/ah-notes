@@ -3,6 +3,7 @@
 	- [[GCC]]
 	- [[Objdump]]
 	- [[Journalctl]]
+	- [[Shell]]
 	- strace
 	- ps
 	- top

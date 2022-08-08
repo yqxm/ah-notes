@@ -16,10 +16,11 @@
 - [[Calibre]]
 - [[Tmux]]
 - [[Make]]
+- [[CMake]]
 - [[xmake]]
 - Test
 	- [[Junit]]
 	- [[AssertJ]]
 - [[Rime]]
+- [[git]]
 -
-	-

@@ -1,0 +1,10 @@
+- ## Ordered
+	- `set`: unique elements
+	- `map`: key value pairs
+		- backed by `std::pair<const K, V>`
+		- use `const auto&` for traverse.
+	- By default, the type(for sets) or key's type(for maps) must have a comparison operator(<) defined.
+- ## Unordered
+	- `unordered_set`, `unordered_map`
+	- Must have a hash function defined for it.
+		- Simple types like `int char bool double string` already have hash function.

@@ -1,0 +1,23 @@
+- ## Class
+	- `class`: A programmer defined custom type. An abstraction of object or data type.
+		- Classes provide their user with a public interface and separate this form a private implementation.
+	- ### Issues with structs:
+		- Public access to all internal state data by default.
+		- Users of struct need to explicitly initialize each data member.
+	- [[E.g. C++ class student]]
+		- #### Public section
+			- Users of Object can directly access any thing in public section.
+			- Define interface for interacting with private member variables.
+		- #### Private section
+			- Usually contains all member variables.
+			- Users can't access or modify anything in the private section
+- ## namespaces
+	- ### `namespace`:
+		- Put code into logical groups, to void name clashes.
+		- Each class has its own name space
+		- Syntax for calling/using something in a namespace. `namespace_name::name`
+	- ### Function definition with namespaces
+		- `namespace_name::name` in a function prototype means "this is the implementation for an interface function in namespace_name"
+		- Inside the `{...}` the priate member variables for `namespace_name` will be in scope.
+- ## Template Classes
+-

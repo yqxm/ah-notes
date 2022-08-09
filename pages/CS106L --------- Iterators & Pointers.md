@@ -1,0 +1,14 @@
+- ## Iterators
+	- Iterators: A way to access all containers. It has an "ordering" over elements.
+		- Iterators are objects that point to elements inside containers.
+		- Each STL container has its own iterator, but all of these iterators exhibit a similar behavior.
+		- Gerally, STL iteraltors support some operations in common. [[E.g. C++ STL Iterators operations]]
+	- ### Types of Iterators
+		- Input and Output iterators: Perform sequential single-pass input or output operation.
+		- Forward iterators: Limited to one direction in which to iterate through a range(forward).
+		- Bidirectional iterators: Can iterate forwards and backwards.
+		- Random-access iterator:  Can access ranges non-sequentially.
+- ## Pointers
+	- When variables are created, they're given an address in memory.
+	- Pointers are objects that store an address and type of variable.
+		- Iterators are a form of pointers.

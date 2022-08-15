@@ -4,7 +4,7 @@
 - **`constexpr`变量**
 	- 确定表达式是否是常量表达式是困难的，`C++11`允许将变量声明为`constexpr`类型让编译器验证变量的值是否为常量表达式。
 	- 声明为`constexpr`的变量一定是一个常量，而且必须用常量表达式初始化。
-	- 可以使用特殊的[[constexpr函数]]来初始化`constexpr`变量的值
+	- 可以使用特殊的[[C++ --- constexpr函数]]来初始化`constexpr`变量的值
 - #+BEGIN_TIP
   一般来说，如果认为变量是一个常量表达式，将它声明为`constexpr`。
   #+END_TIP

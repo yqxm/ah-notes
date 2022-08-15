@@ -19,5 +19,3 @@
 	- ### Function definition with namespaces
 		- `namespace_name::name` in a function prototype means "this is the implementation for an interface function in namespace_name"
 		- Inside the `{...}` the priate member variables for `namespace_name` will be in scope.
-- ## Template Classes
--

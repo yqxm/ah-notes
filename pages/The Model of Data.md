@@ -1,0 +1,11 @@
+- ## What is Data Model?
+	- The data model is a notation for describing data or imformation. It consit of three parts:
+		- Structure of the data
+		- Operation on the data
+		- Constrains on the data
+- ## Important Data models
+	- [[The Relational Model]]
+	- The semistructured-data model.
+- ## Data models out of use
+	- The hierarchical model
+	- The network model

@@ -1,2 +1,3 @@
 - 清除已添加到`.gitignore`但未忽略的文件
-	- `git rm --cached`
+	- `git rm --cached .`
+-

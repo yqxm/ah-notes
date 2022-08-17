@@ -12,12 +12,11 @@
 	    	Second second;
 	  }
 	  ```
-- ## mypair.cpp
+- ## in mypair.h
 	- #+BEGIN_WARNING
 	  Must announce every member function is templated
 	  #+END_WARNING
 	- ```C++
-	  #include <mypair.h>
 	  
 	  template <typename First, typename Second>
 	  First Mypairr<First, Second>::getFirst() {

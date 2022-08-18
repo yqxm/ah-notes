@@ -3,3 +3,6 @@
 	- ```text
 	  Every [model]([[Django/Models]]) class
 	  ```
+- **Name a page**
+	- Do not use `. : / \`
+-

@@ -2,7 +2,7 @@
 	- Iterators: A way to access all containers. It has an "ordering" over elements.
 		- Iterators are objects that point to elements inside containers.
 		- Each STL container has its own iterator, but all of these iterators exhibit a similar behavior.
-		- Gerally, STL iteraltors support some operations in common. [[E.g. C++ STL Iterators operations]]
+		- Gerally, STL iteraltors support some operations in common. [[eg ------ C++ STL Iterators operations]]
 	- ### Types of Iterators
 		- Input and Output iterators: Perform sequential single-pass input or output operation.
 		- Forward iterators: Limited to one direction in which to iterate through a range(forward).

@@ -1,0 +1,17 @@
+- ## File Descriptor
+	- A _file descriptor_ is a small integer representing a kernel-managed object that a process may read from or write to.
+		- A process may obtain a file descriptor --
+			- by opening a file, directory, or device.
+			- by creating a pipe.
+			- by duplicating an existing descriptor.
+		- The file descriptor interface abstracts away the diffrerence between files, pipes, and devices, making them all look like streams of bytes.
+	- The xv6 kernel uses the file descriptor as an index into a per-processor table,  so that every process has a private space of file descriptors starting at zero.
+		- By convention, a process
+			- read form file descriptor 0 (standard input)
+			- wirte output to file descriptor 1 (standard output)
+			- writes error messages to file descriptor 2 (standard error)
+- ## IO
+	- ### `int read(fd, buf, n)`
+	- ### `int write(fd, buf, n)`
+-
+	-

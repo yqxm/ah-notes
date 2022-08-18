@@ -4,7 +4,7 @@
 	- ### Issues with structs:
 		- Public access to all internal state data by default.
 		- Users of struct need to explicitly initialize each data member.
-	- [[E.g. C++ class student]]
+	- [[eg ------ C++ class student]]
 		- #### Public section
 			- Users of Object can directly access any thing in public section.
 			- Define interface for interacting with private member variables.

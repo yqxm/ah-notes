@@ -35,13 +35,42 @@
 			- #+BEGIN_TIP
 			  现代CMake并不推荐这么做，更推荐的做法是使用`add_XXX()`函数。尤其是当你添加新文件`GLOB`命令没有正确结果时。
 			  #+END_TIP
+	- ### 创建库
+		- 使用`add_library()`函数从源文件创建库
+		- ```cmake
+		  add_library(hello_library STATIC
+		  	src/hello.cpp
+		  )
+		  ```
 	- ### 包含目录
-		- 当要`include`多个文件夹时，可以使用`target_include_directories()`函数。它相当于将`-I/directory/path`传给编译器。
+		- 当要`include`多个文件夹时，可以使用`target_include_directories()`函数。它相当于将`-I/directory/path`传给编译器。它将在被库编译或被其他target链接时使用。
 		- ```cmake
 		  target_include_directories(target
 		  	PRIVATE
 		      	${PROJECT_SOURCE_DIR}/include
 		  )
 		  ```
-	- ### 包含库
+		- `PRIVATE`: 目录被当前库包含。
+		- `INTERFACE`: 目录被包含到所有链接的target。
+		- `PUBLIC`: 目录被包含到当前库和所有链接到当前库的target。
+	- ### 链接库
+		- 当需要使用你的库时，你必须告诉编译器如何使用它。
+		- ```cmake
+		  add_library(hello_library STATIC 
+		      src/Hello.cpp
+		  )
+		  
+		  target_include_directories(hello_library
+		      PUBLIC 
+		          ${PROJECT_SOURCE_DIR}/include
+		  )
+		  
+		  add_excutable(hello_binary
+		  	src/main.cpp
+		  )
+		  
+		  target_link_libraries( hello_binary
+		  	PRIVATE hello_library
+		  )
+		  ```
 		-

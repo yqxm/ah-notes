@@ -13,5 +13,6 @@
 - ## IO
 	- ### `int read(fd, buf, n)`
 	- ### `int write(fd, buf, n)`
--
+- ## Pipes
+	- A pipe is a small kernel buffer exposed to processes as a pair of file descriptors.
 	-

@@ -1,3 +1,5 @@
+title:: xv6 --- Process and Memory
+
 - A xv6 process consist of user-space memory and per-process state private to the kernel.
 - xv6 _time-shares_ processes: It transparently switches the available CPUs among the set of processes waiting to execute.
 	- When a process is not executing, xv6 saves its CPU registers, restoring them when it next runs the process.

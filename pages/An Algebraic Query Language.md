@@ -1,0 +1,19 @@
+- ## Why do we need a special query language?
+	- The relational algebra is useful because it's less powerful than C or Java. By limiting what we can say or do in out query language, we get two huge rewards.
+		- Ease of programming
+		- Make the compiler can produce highly optimized code.
+- ## Relational algebra
+	- ### _Atomic operands_
+		- _Variables_ that stand for relations.
+		- _Constants_, which are finite relations.
+	- ### _operations_
+		- _The usual set operations_
+			- union
+			- intersection
+			- difference
+		- _Remove parts of a relation_
+			- Selection: It eliminates some rows(tuples)
+			- Projection: It eliminates some columns.
+		- _Combine the tuples of two relations_
+			- Cartesion product: Pairs the tuples of two relations in
+		-

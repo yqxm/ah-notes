@@ -1,3 +1,7 @@
 - 清除已添加到`.gitignore`但未忽略的文件
 	- `git rm --cached .`
+- 重置`origin`
+	- `git remote set-url origin git://new.url`
+- 添加remote
+	- `git remote add public git://new.url`
 -

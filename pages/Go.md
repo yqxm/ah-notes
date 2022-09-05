@@ -1,34 +1,4 @@
-- ## 关键字
-	- `var`声明变量
-	- `const`声明变量
-	- `package`声明所在包
-	- `import`导入包
-	- `if`和`switch`作条件判断。后面可以不跟括号。
-	- `for`循环
-	- `type`重新命名底层类型
-- ## 语法
-	- `:=`简短声明。效果和`var`相同，可以放在`for`、`switch`、`if`的判断语句中。让变量的作用域保持在括号内。包作用域不允许使用简短声明。
-	- 反引号`包裹声明字符串，转义字符将保留。
-- ## 类型
-	- 实数: `float32`、`float64`
-	- 整数: `int`、`uint`、`int8`、`uint8`、`int16`、`uint16`、`int32`、`uint32`、`int64`、`uint64`
-	- 字符: `rune`、`byte`
-- ## 函数
-	- 声明 `func Intn(n int) int`。 函数名大写开头的函数可以导出。
-	- 函数可以赋值给变量，可以作为参数传递给其他函数。
-	- 匿名函数
-- ## 收集器
-	- 数组: `var planets [8]string`
-	- 切片: 数组的引用 `gasGiants := planets[0:4]`
-		- 直接声明切片 `dwarfs := []string{"Ceres", "Pluto", "Haumea", "Makemake", "Eris"}`
-		- 三索引切分 `terrestrial := plantes[0:4:4]`
-		- `append`函数， `make`函数
-- ## 方法
-	- 声明 `func (k kelvin) celsius() celsius`。 一个方法必须且只能有一个接收者。
-- ## 常用包
-	- `fmt`
-	- `math/rand`
-	- `math/big`
-	- `strings`
-	- `unicode/utf8`
-	-
+- [[Go Tour --- Packages, variables, functions]]
+- [[Go Tour ---  Flow control]]
+- [[Go Tour --- More types]]
+-

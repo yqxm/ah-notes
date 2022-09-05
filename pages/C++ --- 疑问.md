@@ -1,0 +1,1 @@
+- What is the cause of flexible array member not at end of struct error？

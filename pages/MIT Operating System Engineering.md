@@ -1,8 +1,15 @@
 - [[MIT OSE --- Introduction]]
 - ## xv6
-	- ### [[xv6 --- Process and Memory]]
-	- ### [[xv6 --- System calls]]
-	- ### [[xv6 --- IO and File descriptors]]
-	- ### [[xv6 --- File Systems]]
-	-
+	- ### Operating system interface
+		- [[xv6 --- Process and Memory]]
+		- [[xv6 --- System calls]]
+		- [[xv6 --- IO and File descriptors]]
+		- [[xv6 --- File Systems]]
+	- ### Operating system organization
+		- [[xv6 --- Abstracting physical resources]]
+		- [[xv6 --- User mode, supervisor mode, and system calls]]
+		- [[xv6 --- Kernel organization]]
+		- [[xv6 --- xv6 organization]]
+		-
+		-
 	-

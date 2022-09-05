@@ -19,12 +19,12 @@
 	- ```C++
 	  
 	  template <typename First, typename Second>
-	  First Mypairr<First, Second>::getFirst() {
+	  First Mypair<First, Second>::getFirst() {
 	  	return first;
 	  }
 	  
 	  template <typename First, typename Second>
-	  Second Mypairr<First, Second>::getSecond() {
+	  Second Mypair<First, Second>::getSecond() {
 	  	return second;
 	  }
 	  ```

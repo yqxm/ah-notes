@@ -1,0 +1,16 @@
+- ## Strong Isolation
+	- To achive strong isolation, the OS must arrange that applications cannot modify (or even read) the OS's data structures and instructions and that application cannot access other processe's memory.
+- ## CPU's support
+	- RISC-V has three modes in which CPU can execute instructions:
+		- _machine mode_ :
+			- Instructions executing in machine code have full privilege. A CPU starts in machine mode.
+			- Machine mode is mostly intended for configuring a computer.
+		- _supervisor mode_
+			- In supervisor mode the CPU is allowed to execute _privileged instructions_: enabling and disabling interrupts, reading and writing the register that holds the address of page table.
+			- Software in supervisor mode can also execute privileged instructions and is said to be running in _kernel space_. The software running in kernel space is called the _**kernel**_
+		- _user mode_
+			- An application can execute only user-mode instructions and is said to be running in _user space_.
+	- CPUs provide a special instruction that switches the CPU from user mode to supervisor mode and enters the kernel at an entry point specified by the kernel.
+	- Once the CPU has switched to supervisor mode, the kernel can then validate the arguments of the system call, decide whether the application is allowed to perform the requested operation, and the deny it or execute it.
+	-
+	-

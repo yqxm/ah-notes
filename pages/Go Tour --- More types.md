@@ -1,6 +1,6 @@
-- Pointers
+- ## Pointers
 	- 指针类似于C，但go的指针没有地址运算
-- `struct`
+- ## `struct`
 	- `struct`是字段的集合，通过`.`运算符获取值
 	- 指向结构的指针也可以操作结构
 	- 通过一系列结构字面值可以依次给结构的字段赋值，指明字段名的话可以不在乎赋值的顺序
@@ -18,10 +18,10 @@
 	    p.X = 10
 	  }
 	  ```
-- Arrays
+- ## Arrays
 	- 数列的长度是它的类型的一部分，所以它不能被`resize`
 	- `var a [10]int`
-- Slices
+- ## Slices
 	- `slice`是一个动态大小，元素视图灵活的数列。通常都使用`slice`而不是数列
 	- 使用`[]T`声明一个T类型的slice
 	- `a[low, high]`形成了一个`[low, high)`的切片
@@ -76,4 +76,47 @@
 		  }
 		  ```
 		- 可以使用`_`来忽略`index`或者值。
-		-
+- ## Maps
+	- map的零值是`nil`，一个`nil`map没有键，也不可以添加键
+	- 使用`make`函数初始化map。
+		- ```go
+		  
+		  type Vertex struct{
+		    Lat, Long float64
+		  }
+		  
+		  var m map[string]Vertex
+		  
+		  func main() {
+		    m = make(map[string]Vertex)
+		    m["Bell labs"] = Vertex{
+		      40.68433, -74.39967
+		    }
+		  }
+		  ```
+	- 可以使用字面值声明并初始化一个map
+		- ```go
+		  type Vertex struct {
+		    Lat, Long float64
+		  }
+		  
+		  var m map[string]Vertex{
+		    "Bell labs": Vertex{40.68, -74.399},
+		    "Google": Vertex{37.43, -122.08}
+		  }
+		  ```
+		- 如果顶层的type只是一个名字，可以省略它。
+		- ```go
+		  var m map[string]Vertex{
+		    "Bell labs": {40.68, -74.399},
+		    "Google": {37.43, -122.08}
+		  }
+		  ```
+	- 改变map
+		- 插入或更新键的值`m[key] = elem`
+		- 获取键的值`elem = m[key]`
+		- 删除键`delete(m, key)`
+		- 检查键是否有键`elem, ok = m[key]`，有键`ok`为true，无键`ok`为 false。如果无键，则`elem`的值是所在类型的零值
+- ## Function Values
+	- 函数可以作为变量的值，参数和返回值
+	- go的函数可以作为闭包，闭包是指函数可能从外部引用值。每个闭包绑定它自己的变量，不会影响别的闭包的绑定的值

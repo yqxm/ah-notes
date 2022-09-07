@@ -1,4 +1,7 @@
 - [[Go Tour --- Packages, variables, functions]]
-- [[Go Tour ---  Flow control]]
+- [[Go Tour --- Flow control]]
 - [[Go Tour --- More types]]
+- [[Go Tour --- Methods and Interface]]
+- [[Go Tour --- Generics]]
+- [[Go Tour --- Concurrency]]
 -

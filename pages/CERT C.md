@@ -1,0 +1,8 @@
+- ## 预处理器
+	- ### Rules
+		- PRE30-C 不要通过连接创建 unicode字符 [[CERT C --- PRE30-C]]
+		- PRE31-C 避免在不安全的宏里使用带有副作用的参数 [[CERT C --- PRE31-C]]
+	- ### Recommendations
+		- PRE00-C 使用`inline`函数或者`static`函数而不是函数式宏定义 [[CERT C --- PRE00-C]]
+		-
+		-

@@ -30,15 +30,13 @@
 	- `switch`没有设置条件的化相当于`switch true`
 - `defer`
 	- `defer`推迟一个函数的执行，直到周围的函数返回。
-	- ```go
-	  func main() {
+	- func main() {
 	    defer fmt.Println("world")
 	    fmt.Println("hello")
 	  }
 	  
 	  // hello
 	  // world
-	  ```
 	- `defer`将函数推入一个栈中，遵循后入先出的原则
 	- ```go
 	  func main() {

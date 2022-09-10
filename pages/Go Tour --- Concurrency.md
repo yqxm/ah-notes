@@ -47,10 +47,10 @@
 	  	x, y := 0, 1
 	  	for {
 	  		select {
-	  		case c <- x:
+	  		case c <- x:				// 向c中发送数据
 	  			x, y = y, x+y
-	  		case <-quit:
-	  			fmt.Println("quit")
+	  		case <-quit:				// 因为gorotine还没运行到21行，quit中没有数据， 被阻塞。
+	  			fmt.Println("quit")	
 	  			return
 	  		}
 	  	}
@@ -61,10 +61,31 @@
 	  	quit := make(chan int)
 	  	go func() {
 	  		for i := 0; i < 10; i++ {
-	  			fmt.Println(<-c)
+	  			fmt.Println(<-c)		// 当c中没有数据时被阻塞。
 	  		}
-	  		quit <- 0
+	  		quit <- 0					// 只有当c中的10个数输出完成后，才有机会执行这条语句。quit中才会有数据。
 	  	}()
 	  	fibonacci(c, quit)
 	  }
 	  ```
+	- ### Default Selection
+		- 当没有其他项就绪时，`select`中的`default`会被运行。
+		- ```go
+		  func main() {
+		  	tick := time.Tick(100 * time.Millisecond)	// 每100ms阻塞
+		  	boom := time.After(500 * time.Millisecond)	// 每500ms阻塞
+		  	for {
+		  		select {
+		  		case <-tick:
+		  			fmt.Println("tick.")
+		  		case <-boom:
+		  			fmt.Println("BOOM!")
+		  			return
+		  		default:
+		  			fmt.Println("    .")
+		  			time.Sleep(50 * time.Millisecond)
+		  		}
+		  	}
+		  }
+		  
+		  ```

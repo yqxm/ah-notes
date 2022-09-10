@@ -1,0 +1,13 @@
+- xv6 uses page tables (which are  implemented by hardware) to give eah process its own address space.
+	- The RISC-V page table translate a _virtual address_ to a phisical address.
+- xv6 maintains a separate page table for each process that defines that process's address space.
+	- ![image.png](../assets/image_1662703874263_0.png){:height 356, :width 417}
+	- An address space includes the process's _user memory_ sarting at virtual address zero. Instructions comes first, followed by global variables, then the stack, and finally a "heap" area.
+	- The maximum address is $2^{38}-1$, equals `0x3fffffffff`, which is `MAXVA`(kernel/riscv.h)
+		- Factors that limit the maximum size of a process's address space are:
+			- pointer on the RISC-V are 64 bits wide
+			- the hardware only uses the low 39 bits when looking up virtual addresses in page tables. xv6 only uses 38 of 39 bits.
+	- At the top of the address space xv6 reserves a page for a trampoline and a page mapping the process's _trapframe_.
+		- xv6 uses these two pages to transition into the kernel and back.
+		- The trampoline page contains the code to transition in and out of the kernel and mapping the trapframe is necessary to save/restore the state of the user process.
+	-

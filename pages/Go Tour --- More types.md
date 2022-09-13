@@ -116,7 +116,12 @@
 		- 插入或更新键的值`m[key] = elem`
 		- 获取键的值`elem = m[key]`
 		- 删除键`delete(m, key)`
-		- 检查键是否有键`elem, ok = m[key]`，有键`ok`为true，无键`ok`为 false。如果无键，则`elem`的值是所在类型的零值
+		- 检查键是否有键`elem, ok := m[key]`，有键`ok`为true，无键`ok`为 false。如果无键，则`elem`的值是所在类型的零值。
+			- ```go
+			  if elem, ok := m[target]; ok {
+			    	...
+			  }
+			  ```
 - ## Function Values
 	- 函数可以作为变量的值，参数和返回值
 	- go的函数可以作为闭包，闭包是指函数可能从外部引用值。每个闭包绑定它自己的变量，不会影响别的闭包的绑定的值

@@ -11,6 +11,8 @@
 		- [[xv6 --- Kernel organization]]
 		- [[xv6 --- xv6 organization]]
 		- [[xv6 --- process overview]]
-		-
+		- [[xv6 --- starting xv6]]
+		- [[xv6 --- Security model]]
+	-
 		-
 	-

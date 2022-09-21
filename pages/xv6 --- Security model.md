@@ -1,0 +1,2 @@
+- The operating system must assume that a process's user-level code will do its best to wreck the kernel or other processes.
+- Kernel code is assumed to be written by well-meaning and careful programmers. Kernel code is expected to be bug-free, and certainly to contain nothing malicious.

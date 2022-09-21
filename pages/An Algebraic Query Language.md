@@ -6,7 +6,7 @@
 	- ### _Atomic operands_
 		- _Variables_ that stand for relations.
 		- _Constants_, which are finite relations.
-	- ### _operations_
+	- ### _Overview of operations_
 		- _The usual set operations_
 			- union
 			- intersection
@@ -16,4 +16,5 @@
 			- Projection: It eliminates some columns.
 		- _Combine the tuples of two relations_
 			- Cartesion product: Pairs the tuples of two relations in
-		-
+		- _Renaming: change the relation schema_
+			- It does not affect the tuples of a relation, but changes the relation schema, i.e., the names of the attributes and/or the names of the relation itself.

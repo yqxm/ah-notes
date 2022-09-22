@@ -1,5 +1,4 @@
 - [[Database management system components]]
--
 - [[The Model of Data]]
 	- [[The Relational Model]]
 -

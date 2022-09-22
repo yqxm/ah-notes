@@ -1,0 +1,11 @@
+- ## Relational Algebra as a Constraint Language
+	- There are two ways in which we can use  expressions of relational algebra to express constraints
+		- If $R$ is an expression of relational algebra, then $R = \emptyset$ is a constraint that says "The value of $R$ must be empty".
+		- If $R$ and $S$ ares expressions of relational algebra, then $R \subseteq S$ is a constraint that says "Every tuple in the result of $R$ must also be in the result of $S$"
+- ## Referential integrity constraints
+	- _Referential integrity constraint_, asserts that a value appearing in one context also appears in another related context.
+		- If we have any value $v$ as the component in attribute $A$ of some tuple in one relation $R$, then because of our design intentions we may expect that $v$ will appear in a particular component (say for attribute $B$) of some tuple of another relation $S$.
+		- We can express this integrity constraint in relational algebra as $\pi_A(R) \subseteq \pi_B(S)$
+- ## Key Constraints
+	-
+-

@@ -13,6 +13,7 @@
 	- _Domain_: The type of attributes. Each column values shoud belongs to its domain.
 	- _Relation Instance_: the set of tuples of a given relation is a instance of that relation.
 	- _Keys_: The set of attributes forms a key for a relation if we do not allow two tuples in a relation instance to have the same values in all the attribute of the key.
-- ## [[Relation Schema and SQL]]
-- ## [[An Algebraic Query Language]]
+- ### [[Relation Schema and SQL]]
+- ### [[An Algebraic Query Language]]
+- ### [[Constrains on Relations]]
 -

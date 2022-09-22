@@ -3,6 +3,3 @@
 	- ![latex symbols.pdf](../assets/latex_symbols_1653444424918_0.pdf)
 - gdb
 	- ![gdb5-refcard.pdf](../assets/gdb5-refcard_1653701377804_0.pdf)
-- 小鹤双拼
-	- ![hejp.png](../assets/hejp_1658915356340_0.png)
-	-

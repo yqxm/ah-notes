@@ -4,7 +4,7 @@
 		- Operation on the data
 		- Constrains on the data
 - ## Important Data models
-	- [[The Relational Model]]
+	- The Relational Model
 	- The semistructured-data model.
 - ## Data models out of use
 	- The hierarchical model

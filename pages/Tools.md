@@ -25,5 +25,7 @@
 - Version Control
 	- [[git]]
 	- [[gh]]
+- Software manager
+	- [[snap]]
 	-
 -

@@ -1,7 +1,7 @@
-- [[Go Tour --- Packages, variables, functions]]
-- [[Go Tour --- Flow control]]
-- [[Go Tour --- More types]]
-- [[Go Tour --- Methods and Interface]]
-- [[Go Tour --- Generics]]
-- [[Go Tour --- Concurrency]]
+- [[Go --- 包，变量，函数]]
+- [[Go --- 流程控制]]
+- [[Go --- 指针，类，数组，切片，映射，函数值]]
+- [[Go --- 方法，接口]]
+- [[Go --- 泛型]]
+- [[Go --- 并发]]
 -

@@ -1,6 +1,10 @@
 - [[Algorithms]]
 - [[Computer Systems]]
+- [[Computer Organization and Design]]
+-
 - [[Computer Networks]]
 - [[Operating System]]
 - [[Distributed Systems]]
 - [[Database]]
+- [[Compiler]]
+-

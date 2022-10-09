@@ -1,0 +1,6 @@
+- The performance of a program depends on a combination of
+	- the effectiveness of the algorithms used in the program,
+	- the software systems used to create and translate the program into machine code
+	- the effectiveness of the computer in executing those instructions.
+- ![image.png](../assets/image_1665308711187_0.png){:height 267, :width 566}
+-

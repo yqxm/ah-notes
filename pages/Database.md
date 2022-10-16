@@ -1,4 +1,10 @@
-- [[Database management system components]]
-- [[The Model of Data]]
+- ## Overview
+	- [[DBMS components]]
+- ## The Model of Data
+	- [[The Model of Data]]
 	- [[The Relational Model]]
+	- [[Relation Schema and SQL]]
+	- [[An Algebraic Query Language]]
+	- [[Constrains on Relations]]
+-
 -

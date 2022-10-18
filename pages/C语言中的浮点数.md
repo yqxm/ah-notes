@@ -1,5 +1,0 @@
-- ## 转换
-	- `int -> float` 数字不会溢出，但有可能被舍入
-	- `int/float -> double` 可以保留精确数值
-	- `double -> float` 因为`float`范围较小，可能溢出成$+ \infty$ 或 $- \infty$。因为精确度小，值可能被舍入。
-	- `float/double -> int` 值向零舍入。
